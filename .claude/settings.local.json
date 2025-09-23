@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.github.com)",
+      "Bash(ruby --version)",
+      "Bash(bundle install:*)",
+      "Bash(bundle config set:*)",
+      "Bash(rbenv versions:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

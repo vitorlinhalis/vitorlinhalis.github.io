@@ -1,0 +1,23 @@
+title: Vitor Linhalis Portfolio
+description: My portfolio 2025
+baseurl: ""
+url: "https://vitorlinhalis.github.io"
+
+# Theme configuration
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
