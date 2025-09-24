@@ -1,8 +1,19 @@
 ---
 layout: home
-title: Home
 ---
 
-# Welcome to Vitor Linhalis Portfolio
+Welcome to my portfolio! I'm Vitor Linhalis, and this is where I showcase my projects, skills, and professional experience for 2025.
 
-This is my portfolio for 2025. Here you'll find information about my projects, skills, and professional experience.
+## About Me
+
+Add your bio and professional background here.
+
+## Skills
+
+- List your technical skills
+- Programming languages
+- Tools and technologies
+
+## Featured Projects
+
+Your project showcases will appear here when you create posts in the `_posts` directory.

@@ -5,7 +5,14 @@
       "Bash(ruby --version)",
       "Bash(bundle install:*)",
       "Bash(bundle config set:*)",
-      "Bash(rbenv versions:*)"
+      "Bash(rbenv versions:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(mkdir:*)",
+      "Bash(bundle --version)",
+      "Bash(xcode-select:*)",
+      "Bash(rbenv install:*)",
+      "Bash(gem install:*)",
+      "Bash(bundle exec:*)"
     ],
     "deny": [],
     "ask": []

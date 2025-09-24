@@ -3,14 +3,33 @@ description: My portfolio 2025
 baseurl: ""
 url: "https://vitorlinhalis.github.io"
 
-# Theme configuration
+# Theme configuration - using local minima theme
 theme: minima
+
+# Minima v3 specific configuration
+minima:
+  skin: auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/vitorlinhalis" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/vitorlinhalis" }
+
+# Author information
+author:
+  name: Vitor Linhalis
+  email: vitorlinhalis@gmail.com
+  avatar: /assets/img/perfil.jpg
+
+# Show excerpts on the homepage
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-admin
 
 # Exclude from processing
 exclude:
@@ -21,3 +40,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - "*.gemspec"
+  - README.md
