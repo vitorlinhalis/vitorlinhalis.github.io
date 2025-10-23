@@ -27,3 +27,14 @@ body {
   background-position: center;
   font-family: 'Victor Mono', 'Courier New', monospace;
 }
+
+.wrapper {
+  text-align: justify;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-content {
+  padding: 2rem 0;
+}
